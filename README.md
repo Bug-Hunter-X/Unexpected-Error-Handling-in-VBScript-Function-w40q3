@@ -1,0 +1,1 @@
+This example demonstrates a common issue in VBScript:  inconsistent or missing error handling. The `MyFunction` expects a parameter; however, there's no error handling in the calling function to catch `Err.Raise`.  This can lead to application crashes or unexpected termination. The solution provides a robust way to handle this scenario.
